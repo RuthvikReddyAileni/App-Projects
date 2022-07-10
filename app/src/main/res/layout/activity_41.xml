@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity41">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="492dp"
+        android:layout_height="812dp"
+        android:layout_marginTop="15dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/quit"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@drawable/custom_button"
+                android:text="QUIT"
+                android:textColor="@color/black"
+                android:visibility="invisible"
+                app:backgroundTint="#03A9F4" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginLeft="61dp"
+                android:background="@drawable/custom_button"
+                android:text="NEXT"
+                android:textColor="@color/black"
+                app:backgroundTint="#03A9F4" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="369dp"
+            android:layout_height="102dp"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/key1"
+            android:layout_width="370dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/browser_actions_bg_grey"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/key2"
+            android:layout_width="370dp"
+            android:layout_height="66dp"
+            android:backgroundTint="@color/browser_actions_bg_grey"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/key3"
+            android:layout_width="370dp"
+            android:layout_height="66dp"
+            android:backgroundTint="@color/browser_actions_bg_grey"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/key4"
+            android:layout_width="370dp"
+            android:layout_height="66dp"
+            android:backgroundTint="@color/browser_actions_bg_grey"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

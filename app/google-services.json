@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "364710478094",
+    "project_id": "programming-languages-qu-fe8ea",
+    "storage_bucket": "programming-languages-qu-fe8ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364710478094:android:b38efa494d3a9896f2575f",
+        "android_client_info": {
+          "package_name": "com.example.programminglanguagesquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364710478094-1vcviusm375n9svibdjn444678elqqlr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB48-UESgKPciecLNVJQMJUJDwktK4k9JE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364710478094-1vcviusm375n9svibdjn444678elqqlr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
